@@ -1,19 +1,17 @@
 # Marifatun Frontend
 
-![Marifatun — platform konten & scripting video](public/cover.png)
+<p align="center">
+  <img src="./public/cover.png" alt="Marifatun — platform konten & scripting video" width="920" />
+</p>
 
 ## Deskripsi
 
 Marifatun merupakan kosakata yang diambil dari Arab yang mengartikan Pengetahuan, dengan tujuan untuk melakukan generating copywriting konten yang dapat di share di LinkedIn, X, Thread, Facebook, hingga ke Email Marketing. Dan juga melakukan scripting scenes untuk membuat Video.
 
-## Menampilkan gambar (template)
-
-Gunakan salah satu contoh berikut saat ingin menampilkan gambar di dokumentasi atau UI:
-
 **Markdown:**
 
 ```markdown
-![Marifatun — platform konten & scripting video](public/cover.png)
+![Marifatun — platform konten & scripting video](./public/cover.png)
 ```
 
 ## Instalasi
