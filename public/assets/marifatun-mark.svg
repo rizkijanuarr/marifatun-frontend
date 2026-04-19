@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Marifatun">
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#dd3404"/>
+  <path
+    fill="#ffffff"
+    d="M16 46V15h7l9 17 9-17h7v31h-6.5V25L32 41L22.5 25v21H16z"
+  />
+</svg>

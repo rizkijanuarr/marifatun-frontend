@@ -1,0 +1,599 @@
+{
+    "$schema": "Marifatun i18n dictionary — Indonesian (source of truth).",
+    "$notes": [
+        "Top-level keys are GROUPS (front-desk, back-desk, …).",
+        "Reference a value from HTML via data-i18n=\"group.page.section.key\"",
+        "(scoped) or data-i18n=\"/abs.path\" (absolute, ignores scope).",
+        "Use data-i18n-html=\"…\" when the translation contains HTML markup.",
+        "Use data-i18n-attr=\"placeholder:key; aria-label:key\" for attributes.",
+        "Interpolation tokens use {name}; pass vars via data-i18n-vars='{\"name\":\"x\"}'."
+    ],
+    "front-desk": {
+        "landing-page": {
+            "meta": {
+                "title": "Marifatun — Ide, Tulis, Karya."
+            },
+            "cta_back_dashboard": "Kembali ke Dashboard",
+            "navbar": {
+                "cta_signup": "Mulai Gratis",
+                "cta_login": "Masuk"
+            },
+            "hero": {
+                "badge": "Platform #1 di Indonesia",
+                "title": "Ide, Tulis, Karya.",
+                "subtitle": "Tulis ide kamu apapun didalam Marifatun lalu karya-kan di Linkedin, Thread, X, Facebook, hingga ke Email Marketing.",
+                "cta": "Mulai Sekarang",
+                "social_proof": "Bergabung dengan <strong>10.000+</strong> penulis Marifatun"
+            },
+            "steps": {
+                "title": "3 Langkah dengan Marifatun",
+                "subtitle": "Gak perlu setup ribet.",
+                "step_1_title": "Ide",
+                "step_1_desc": "Daripada Ide kamu hilang begitu saja",
+                "step_2_title": "Tulis",
+                "step_2_desc": "Tulis Ide kamu dan AI akan membuatnya",
+                "step_3_title": "Karya",
+                "step_3_desc": "Karya-kan ke Sosmed kamu agar bermanfaat"
+            },
+            "pricing": {
+                "title": "Mau gratis, upgrade kapanpun",
+                "subtitle": "Coba dulu gratis. Kalau udah cocok, upgrade ke paket berbayar dengan harga terjangkau.",
+                "explore": {
+                    "period": "Selamanya",
+                    "feat_1": "1 Ide",
+                    "feat_2": "1 Tulis",
+                    "feat_3": "1 Karya",
+                    "feat_4": "Lintas platform",
+                    "cta": "Mulai Sekarang"
+                },
+                "maniac": {
+                    "period": "/ 1 Ide",
+                    "feat_1": "1 Ide",
+                    "feat_2": "1 Tulis",
+                    "feat_3": "1 Karya",
+                    "cta": "Mulai Sekarang"
+                }
+            },
+            "footer": {
+                "col_company": "Company",
+                "link_support": "Support",
+                "link_feedback": "Feedback",
+                "link_twitter": "Twitter",
+                "col_legal": "Legal",
+                "link_privacy": "Privacy Policy",
+                "link_terms": "Terms Of Service",
+                "col_product": "Product",
+                "link_changelog": "Changelog",
+                "link_roadmap": "Roadmap",
+                "link_blog": "Blog",
+                "built": "Built with ♥ by www.rzkjanuarr.com",
+                "copyright": "Copyright 2026 Marifatun"
+            }
+        },
+        "auth-login": {
+            "meta":     { "title": "Masuk — Marifatun" },
+            "form":     {
+                "title": "Masuk",
+                "subtitle": "Masuk dan jelajahi sekarang juga!",
+                "email_placeholder": "ex: jhondoe@gmail.com",
+                "password_placeholder": "xxxxxxxxxxx",
+                "eye_show_label": "Tampilkan password",
+                "forgot_link": "Lupa password?",
+                "submit": "Masuk"
+            },
+            "switch":   { "prose": "Belum punya Akun?", "link": "Daftar" },
+            "toast":    {
+                "welcome": "Selamat datang kembali di Marifatun!",
+                "email_required": "Email wajib diisi!",
+                "password_min": "Password minimal 6 karakter.",
+                "success": "Berhasil masuk!",
+                "after_register": "Akun berhasil dibuat. Silakan masuk.",
+                "after_reset": "Password berhasil diperbarui. Silakan masuk."
+            }
+        },
+        "auth-register": {
+            "meta":     { "title": "Daftar — Marifatun" },
+            "form":     {
+                "title": "Daftar",
+                "subtitle": "Gabung sekarang juga!",
+                "name_placeholder": "ex: Jhon Doe 777",
+                "email_placeholder": "ex: jhondoe@gmail.com",
+                "password_placeholder": "xxxxxxxxxxx",
+                "password_confirm_placeholder": "Ulangi password",
+                "eye_show_label": "Tampilkan password",
+                "submit": "Daftar"
+            },
+            "switch":   { "prose": "Sudah punya Akun?", "link": "Masuk" },
+            "toast":    {
+                "name_required":  "Nama wajib diisi!",
+                "email_required": "Email wajib diisi!",
+                "password_min":   "Password minimal 6 karakter.",
+                "password_mismatch": "Password dan konfirmasi tidak sama.",
+                "success":        "Berhasil daftar!"
+            }
+        },
+        "auth-forgot-password": {
+            "meta":     { "title": "Lupa Password — Marifatun" },
+            "form":     {
+                "title": "Lupa Password",
+                "subtitle": "Masukkan email dan password baru kamu.",
+                "email_placeholder": "ex: jhondoe@gmail.com",
+                "new_password_placeholder": "Password baru",
+                "eye_show_label": "Tampilkan password",
+                "submit": "Submit"
+            },
+            "switch":   { "prose": "Ingat password kamu?", "link": "Masuk" },
+            "toast":    {
+                "email_required": "Email wajib diisi!",
+                "password_min":   "Password minimal 6 karakter.",
+                "success":        "Password berhasil diperbarui!"
+            }
+        }
+    },
+    "back-desk": {
+        "sidebar-panel": {
+            "logout": "Logout",
+            "nav": {
+                "dashboard": "Dashboard",
+                "user": "User",
+                "content": "Konten"
+            },
+            "group": {
+                "management": "Management"
+            }
+        },
+        "header-panel": {
+            "burger_label": "Buka / tutup sidebar",
+            "lang_trigger_label": "Pilih bahasa"
+        },
+        "modal-filter": {
+            "title_default": "Filter & Cari",
+            "close_label": "Tutup",
+            "group_search": "Pencarian",
+            "group_status": "Status",
+            "group_range": "Rentang Tanggal",
+            "group_sort": "Urutkan",
+            "date_from_label": "Dari tanggal",
+            "date_to_label": "Sampai tanggal",
+            "chip_all": "Semua",
+            "chip_active": "Aktif",
+            "chip_inactive": "Tidak Aktif",
+            "sort_newest": "Terbaru",
+            "sort_oldest": "Terlama",
+            "sort_az": "Nama A–Z",
+            "sort_za": "Nama Z–A",
+            "btn_reset": "Reset",
+            "btn_export": "Export",
+            "btn_apply": "Terapkan"
+        },
+        "modal-create": {
+            "close_label": "Tutup",
+            "field_name": "Nama Lengkap",
+            "field_email": "Email",
+            "field_plan": "Plan",
+            "field_role": "Role",
+            "field_status": "Status",
+            "field_active": "Status aktif",
+            "field_password": "Password",
+            "placeholder_name": "mis. Ari Pratama",
+            "placeholder_email": "nama@mail.com",
+            "placeholder_password": "Minimal 6 karakter",
+            "role_admin": "ADMIN",
+            "role_marifatun_user": "MARIFATUN_USER",
+            "status_active": "Aktif",
+            "status_suspended": "Suspended",
+            "status_banned": "Banned",
+            "status_inactive": "Tidak Aktif",
+            "btn_cancel": "Batal"
+        },
+        "modal-edit": {
+            "close_label": "Tutup",
+            "field_name": "Nama Lengkap",
+            "field_email": "Email",
+            "field_plan": "Plan",
+            "field_role": "Role",
+            "field_status": "Status",
+            "field_active": "Status aktif",
+            "field_phone": "Nomor HP",
+            "field_password_new": "Password baru",
+            "placeholder_password_optional": "Kosongkan jika tidak diubah",
+            "role_admin": "ADMIN",
+            "role_marifatun_user": "MARIFATUN_USER",
+            "status_active": "Aktif",
+            "status_suspended": "Suspended",
+            "status_banned": "Banned",
+            "status_inactive": "Tidak Aktif",
+            "btn_cancel": "Batal"
+        },
+        "modal-view": {
+            "close_label": "Tutup",
+            "loading": "Memuat detail…",
+            "detail_roles": "Role",
+            "detail_modified": "Terakhir diubah",
+            "detail_content": "Konten Dibuat",
+            "detail_joined": "Bergabung",
+            "detail_last_login": "Login Terakhir",
+            "detail_phone": "Nomor HP",
+            "btn_close": "Tutup",
+            "btn_edit": "Edit"
+        },
+        "modal-delete": {
+            "subtitle_default": "Tindakan ini tidak bisa dibatalkan.",
+            "close_label": "Tutup",
+            "btn_cancel": "Batal"
+        },
+        "statistic-card-panel": {},
+        "statistic-chart-panel": {},
+        "feature-dashboard": {
+            "meta":    { "title": "Dashboard — Marifatun" },
+            "header":  {
+                "title": "Dashboard",
+                "subtitle": "Ringkasan aktivitas platform Marifatun",
+                "manage_users": "Kelola User",
+                "manage_content": "Kelola Content"
+            },
+            "banner":  { "greeting": "Halo,", "subtitle": "Selamat datang di Marifatun Dashboard" },
+            "loading": "Memuat ringkasan dashboard…",
+            "card_total_users": "Total Users",
+            "card_total_contents": "Total Konten",
+            "card_active_content": "Konten Aktif",
+            "card_active_monthly": "User Aktif Bulan Ini",
+            "meta_total_users": "Seluruh pengguna terdaftar",
+            "meta_total_contents": "Semua konten di platform",
+            "meta_vs_last_week": "vs minggu lalu",
+            "meta_daily_quota": "68% dari kuota harian",
+            "meta_this_week": "minggu ini",
+            "meta_of_total_users": "dari 1.248 user",
+            "badge_new_count": "+24 baru",
+            "badge_active_pct": "78% aktif",
+            "chart_content_by_type_title": "Konten per tipe",
+            "chart_content_by_type_subtitle": "Distribusi konten di seluruh platform",
+            "chart_growth_title": "Pertumbuhan User",
+            "chart_growth_subtitle": "7 hari terakhir",
+            "chart_revenue_title": "Pendapatan Bulanan",
+            "chart_revenue_subtitle": "Jan – Jun 2026 (dalam juta)",
+            "chart_plan_title": "Distribusi Plan",
+            "chart_plan_subtitle": "Breakdown berdasarkan plan",
+            "chart_plan_badge": "1.248 user",
+            "chart_category_title": "Kategori Konten Populer",
+            "chart_category_subtitle": "Views per kategori (skala 0–100)",
+            "chart_category_badge": "Top: Akhlak",
+            "chart_users_by_role_title": "Pengguna per role",
+            "chart_users_by_role_subtitle": "Distribusi Admin vs user Marifatun",
+            "chart_role_admin": "Admin",
+            "chart_role_marifatun_user": "User Marifatun",
+            "chart_content_status_title": "Konten aktif vs nonaktif",
+            "chart_content_status_subtitle": "Semua konten di platform menurut status",
+            "chart_content_status_active": "Aktif",
+            "chart_content_status_inactive": "Nonaktif",
+            "chart_content_tone_title": "Konten per nada (tone)",
+            "chart_content_tone_subtitle": "Distribusi tone pada teks konten",
+            "chart_tone_unknown": "Tidak diketahui / kosong",
+            "chart_content_timeline_title": "Konten dibuat per bulan",
+            "chart_content_timeline_subtitle": "6 bulan terakhir (termasuk bulan ini)"
+        },
+        "feature-user": {
+            "meta":    { "title": "User — Marifatun Dashboard" },
+            "header":  {
+                "title": "User",
+                "subtitle": "Kelola semua user yang terdaftar",
+                "btn_filter": "Filter",
+                "btn_create": "Tambah User"
+            },
+            "card_total": "Total User",
+            "card_premium": "User Premium",
+            "card_new_month": "Baru Bulan Ini",
+            "card_inactive": "Tidak Aktif",
+            "badge_active": "Aktif",
+            "badge_maniac_plan": "Maniac plan",
+            "badge_mom": "+18% MoM",
+            "badge_30d_inactive": "30+ hari tidak login",
+            "stat_total_users_title": "Total user",
+            "stat_total_users_badge": "Database",
+            "stat_last_30d_title": "Pendaftaran 30 hari terakhir",
+            "stat_last_30d_badge": "30 hari",
+            "stat_active_title": "User aktif",
+            "stat_active_badge": "Aktif",
+            "stat_inactive_title": "User tidak aktif",
+            "stat_inactive_badge": "Nonaktif",
+            "stat_role_title": "Role {role}",
+            "stat_role_badge": "Role",
+            "stat_email_domain_title": "Email {domain}",
+            "stat_email_domain_badge": "Domain",
+            "chart_signups_title": "Pendaftaran Harian",
+            "chart_signups_subtitle": "14 hari terakhir",
+            "chart_status_title": "Status User",
+            "chart_status_subtitle": "Breakdown berdasarkan status akun",
+            "chart_status_badge": "1.248 total",
+            "chart_plan_title": "Sebaran Plan",
+            "chart_plan_subtitle": "Komposisi user per paket",
+            "chart_plan_badge": "25% Maniac",
+            "chart_retention_title": "Retensi vs Churn",
+            "chart_retention_subtitle": "6 minggu terakhir",
+            "chart_retention_badge": "90% avg",
+            "chart_growth_title": "Pertumbuhan User",
+            "chart_growth_subtitle": "7 hari terakhir",
+            "chart_revenue_title": "Pendapatan Bulanan",
+            "chart_revenue_subtitle": "Jan – Jun 2026 (dalam juta)",
+            "chart_dist_plan_title": "Distribusi Plan",
+            "chart_dist_plan_subtitle": "Breakdown berdasarkan plan",
+            "chart_category_title": "Kategori Konten Populer",
+            "chart_category_subtitle": "Views per kategori (skala 0–100)",
+            "chart_category_badge": "Top: Akhlak",
+            "table": {
+                "col_user":    "User",
+                "col_plan":    "Plan",
+                "col_role":    "Role",
+                "col_status":  "Status",
+                "col_joined":  "Bergabung",
+                "col_actions": "Aksi",
+                "loading":     "Memuat data user…",
+                "summary":     "Menampilkan 1–5 dari 1.248 user",
+                "summary_range": "Menampilkan {from}–{to} dari {filtered} hasil (sesuai filter) · Total di database: {all}",
+                "summary_empty": "Tidak ada data",
+                "pagination_prev": "Halaman sebelumnya",
+                "pagination_next": "Halaman berikutnya",
+                "pagination_page": "{current} / {last}",
+                "aria_view":   "Lihat detail",
+                "aria_edit":   "Edit",
+                "aria_delete": "Hapus",
+                "row_status_active":    "Aktif",
+                "row_status_inactive":  "Tidak aktif",
+                "row_status_suspended": "Suspended",
+                "row_status_banned":    "Banned"
+            },
+            "filter": {
+                "title":              "Filter & Cari User",
+                "search_placeholder": "Cari nama atau email user...",
+                "search_hint":        "Mencari di nama lengkap dan alamat email"
+            },
+            "modals": {
+                "create_title":    "Tambah User",
+                "create_subtitle": "Isi data user baru dan klik Simpan untuk mendaftarkan.",
+                "create_submit":   "Simpan User",
+                "edit_title":      "Edit User",
+                "edit_subtitle":   "Perbarui data user, lalu klik Simpan Perubahan.",
+                "edit_submit":     "Simpan Perubahan",
+                "view_title":      "Detail User",
+                "view_subtitle":   "Ringkasan data dan aktivitas user.",
+                "delete_title":    "Hapus User?",
+                "delete_message":  "User ini akan dihapus (soft delete). Pastikan kamu ingin melanjutkan.",
+                "delete_submit":   "Hapus"
+            },
+            "toast": {
+                "filter_applied": "Filter diterapkan.",
+                "user_created":   "User baru disimpan.",
+                "user_updated":   "Perubahan disimpan.",
+                "user_deleted":   "User dihapus.",
+                "invalid_role":   "Role tidak valid.",
+                "mutation_failed": "Permintaan gagal."
+            }
+        },
+        "feature-content": {
+            "meta": { "title": "Konten — Marifatun Dashboard" },
+            "header": {
+                "title": "Konten",
+                "subtitle": "Buat dan kelola konten yang dihasilkan",
+                "btn_filter": "Filter",
+                "btn_create": "Konten baru"
+            },
+            "stat": {
+                "total_contents": "Total konten",
+                "total_badge": "Platform",
+                "by_user_title": "Per pengguna"
+            },
+            "charts": {
+                "loading": "Memuat statistik konten…",
+                "section_aria": "Statistik konten Anda",
+                "tone_unknown": "Tidak diatur",
+                "by_type_title": "Konten per jenis",
+                "by_type_subtitle": "Distribusi konten aktif Anda",
+                "by_tone_title": "Konten per nada",
+                "by_tone_subtitle": "Jumlah per tone (brief)",
+                "by_month_title": "Konten dibuat per bulan",
+                "by_month_subtitle": "Enam bulan terakhir (konten aktif)",
+                "by_video_platform_title": "Skrip video per platform",
+                "by_video_platform_subtitle": "Distribusi konten skrip video aktif menurut platform tujuan",
+                "platform_unknown": "Belum dipilih / tidak diatur"
+            },
+            "table": {
+                "col_topic": "Topik",
+                "col_type": "Jenis",
+                "col_tone": "Nada",
+                "col_keywords": "Kata kunci",
+                "col_owner": "Pemilik",
+                "col_status": "Status",
+                "col_created": "Dibuat",
+                "col_actions": "Aksi",
+                "status_active": "Aktif",
+                "status_inactive": "Tidak aktif",
+                "loading": "Memuat konten…",
+                "summary_range": "Menampilkan {from}–{to} dari {filtered} hasil",
+                "summary_empty": "Tidak ada data",
+                "pagination_prev": "Halaman sebelumnya",
+                "pagination_next": "Halaman berikutnya",
+                "pagination_page": "{current} / {last}",
+                "aria_view": "Lihat detail",
+                "aria_edit": "Edit",
+                "aria_delete": "Nonaktifkan",
+                "aria_deactivate": "Nonaktifkan konten",
+                "deactivate_disabled_hint": "Konten sudah tidak aktif"
+            },
+            "filter": {
+                "title": "Filter konten",
+                "search_placeholder": "Cari topik atau kata kunci…",
+                "search_hint": "Mencocokkan topik dan bidang terkait",
+                "search_placeholder_user": "Cari topik, kata kunci, atau nada…",
+                "search_hint_user": "Mencocokkan topik, kata kunci, dan nada (mis. formal, santai).",
+                "sort_modified_hint_user": "Urut berdasarkan tanggal terakhir diubah.",
+                "content_type": "Tipe konten",
+                "any_type": "Semua tipe",
+                "user_id": "ID pengguna",
+                "user_id_placeholder": "UUID pemilik",
+                "sort_default": "Default (server)",
+                "sort_created": "Tanggal dibuat",
+                "sort_modified": "Tanggal diubah",
+                "sort_topic": "Topik",
+                "sort_content_type": "Tipe konten",
+                "sort_user_name": "Nama pemilik",
+                "sort_direction": "Arah urut",
+                "dir_default": "Default",
+                "dir_asc": "Naik",
+                "dir_desc": "Turun",
+                "per_page": "Per halaman",
+                "sort_modified_hint": "Urut berdasarkan tanggal terakhir diubah (satu halaman 5 data)."
+            },
+            "form": {
+                "content_type": "Tipe konten",
+                "topic": "Topik",
+                "topic_placeholder": "Topik atau brief utama",
+                "tone": "Nada",
+                "keywords": "Kata kunci",
+                "keywords_placeholder": "Mis. SaaS, produk digital, UMKM — kata kunci singkat",
+                "target_audience": "Audiens sasaran",
+                "target_audience_placeholder": "Mis. founder, CEO, CTO, manager, UMKM",
+                "select_placeholder": "Pilih…",
+                "video_platform": "Platform",
+                "video_platform_tiktok": "TikTok",
+                "video_platform_instagram": "Instagram",
+                "video_platform_linkedin": "LinkedIn",
+                "video_key_message": "Pesan utama",
+                "video_key_message_placeholder": "Inti pesan yang ingin disampaikan dalam video",
+                "video_cta": "Call to action",
+                "video_cta_placeholder": "Mis. Daftar gratis, Coba sekarang, Hubungi kami"
+            },
+            "enum": {
+                "content_type": {
+                    "linkedin": "LinkedIn",
+                    "x": "X",
+                    "thread": "Threads",
+                    "facebook": "Facebook",
+                    "email_marketing": "Email marketing",
+                    "video_script": "Skrip video (short-form)"
+                },
+                "tone": {
+                    "formal": "Formal",
+                    "casual": "Santai",
+                    "persuasive": "Persuasif",
+                    "friendly": "Ramah",
+                    "professional": "Profesional",
+                    "inspirational": "Inspiratif",
+                    "humorous": "Humoris"
+                }
+            },
+            "view": {
+                "topic": "Topik",
+                "content_type": "Tipe",
+                "tone": "Nada",
+                "keywords": "Kata kunci",
+                "target_audience": "Audiens sasaran",
+                "revision": "Revisi",
+                "revision_value": "{used} terpakai · {left} sisa",
+                "owner": "Pemilik",
+                "created": "Dibuat",
+                "modified": "Diubah",
+                "result": "Hasil generate",
+                "result_section_aria": "Pratinjau hasil generate",
+                "result_placeholder": "Belum ada teks hasil generate.",
+                "copy_button": "Salin",
+                "copy_aria": "Salin hasil generate ke papan klip",
+                "copy_toast": "Disalin ke papan klip.",
+                "copy_failed": "Tidak bisa menyalin.",
+                "copy_empty": "Tidak ada yang disalin.",
+                "export_button": "Ekspor",
+                "export_aria": "Unduh hasil generate sebagai file teks (.txt)",
+                "export_toast": "File .txt diunduh.",
+                "export_failed": "Tidak bisa mengunduh file.",
+                "video_platform": "Platform",
+                "video_key_message": "Pesan utama",
+                "video_cta": "Call to action",
+                "video_script_parse_error": "JSON skrip video tidak bisa dibaca. Tampilan mentah:",
+                "video_script_empty": "Tidak ada adegan dalam hasil.",
+                "video_scene_title": "Adegan {n}",
+                "video_scene_duration": "{s} dtk",
+                "video_field_visual": "Visual",
+                "video_field_on_screen": "Teks layar",
+                "video_field_voice": "Narasi",
+                "video_field_music": "Musik latar",
+                "video_field_transition": "Transisi",
+                "video_preview_title": "Pratinjau vertikal (9:16)",
+                "video_preview_note": "Ini animasi pratinjau di browser dari teks skrip — bukan file video .mp4. Gunakan Putar untuk melihat tiap adegan berganti sesuai durasi.",
+                "video_preview_play": "Putar pratinjau",
+                "video_preview_pause": "Jeda",
+                "video_preview_reset": "Ulang dari awal",
+                "video_preview_jump": "Lompat ke adegan",
+                "video_preview_frame_aria": "Pratinjau adegan skrip video vertikal",
+                "video_preview_scene_counter": "Adegan {current} dari {total}",
+                "video_export_build": "Buat video (.webm)",
+                "video_export_recording": "Membuat video…",
+                "video_export_hint": "Tanpa instalasi: dibuat di browser (Chrome/Edge). Format WebM, tanpa suara.",
+                "video_export_unsupported": "Browser ini tidak bisa merekam WebM (coba Chrome atau Edge terbaru).",
+                "video_export_error": "Gagal membuat file video.",
+                "video_export_done": "Video siap diputar dan diunduh.",
+                "video_export_player": "Putar video",
+                "video_export_download": "Unduh .webm"
+            },
+            "generating": {
+                "overlay_aria": "Sedang membuat konten, mohon tunggu"
+            },
+            "modals": {
+                "create_title": "Konten baru",
+                "create_subtitle": "Isi brief lalu kirim untuk generate.",
+                "create_fyi": "Pilih tipe konten dulu. Kamu bisa pakai \"Isi dari template\" untuk contoh brief yang bisa diedit sebelum generate.",
+                "template_fill_button": "Isi dari template",
+                "create_submit": "Buat",
+                "edit_title": "Edit konten",
+                "edit_subtitle": "Perbarui brief lalu simpan.",
+                "edit_submit": "Simpan perubahan",
+                "view_title": "Detail konten",
+                "view_subtitle": "Hasil generate dan metadata.",
+                "delete_title": "Nonaktifkan konten?",
+                "delete_message": "Status akan diubah menjadi tidak aktif. Data tetap tersimpan dan tetap muncul di daftar.",
+                "delete_submit": "Nonaktifkan"
+            },
+            "toast": {
+                "filter_applied": "Filter diterapkan.",
+                "content_created": "Konten dibuat.",
+                "content_updated": "Konten diperbarui.",
+                "content_deleted": "Konten dihapus.",
+                "content_deactivated": "Konten dinonaktifkan.",
+                "invalid_content_type": "Tipe konten tidak valid.",
+                "invalid_tone": "Nada tidak valid.",
+                "topic_required": "Topik wajib diisi.",
+                "topic_max_words": "Topik maksimal 1000 kata.",
+                "video_brief_incomplete": "Platform, pesan utama, dan call to action wajib diisi untuk skrip video.",
+                "template_fill_select_type": "Pilih tipe konten terlebih dahulu.",
+                "template_fill_applied": "Contoh brief diterapkan. Sesuaikan lalu klik Buat.",
+                "mutation_failed": "Permintaan gagal."
+            }
+        }
+    },
+    "shell": {
+        "error-pages": {
+            "common": {
+                "copyright": "© 2026 Marifatun"
+            },
+            "403": {
+                "meta_title":    "403 — Akses Ditolak · Marifatun",
+                "meta_desc":     "Kamu tidak punya izin untuk mengakses halaman ini.",
+                "heading":       "Akses ditolak",
+                "description":   "Kamu tidak punya izin untuk mengakses halaman ini. Pastikan kamu sudah login dengan akun yang tepat, atau hubungi admin jika kamu merasa ini adalah kesalahan."
+            },
+            "404": {
+                "meta_title":    "404 — Halaman Tidak Ditemukan · Marifatun",
+                "meta_desc":     "Halaman yang kamu cari tidak ditemukan di Marifatun.",
+                "heading":       "Halaman tidak ditemukan",
+                "description":   "Halaman yang kamu cari mungkin sudah dipindahkan, dihapus, atau tidak pernah ada. Periksa kembali URL-nya atau kembali ke halaman sebelumnya."
+            },
+            "500": {
+                "meta_title":    "500 — Server Error · Marifatun",
+                "meta_desc":     "Terjadi kesalahan pada server kami. Silakan coba beberapa saat lagi.",
+                "heading":       "Terjadi kesalahan pada server",
+                "description":   "Tim kami sedang berusaha memperbaiki masalah ini. Silakan coba beberapa saat lagi. Kalau masalah ini terus berulang, kamu bisa menghubungi tim support kami."
+            }
+        },
+        "toast": {
+            "close_label": "Tutup notifikasi"
+        }
+    }
+}

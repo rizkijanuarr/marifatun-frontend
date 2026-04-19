@@ -1,0 +1,591 @@
+{
+    "$schema": "Marifatun i18n dictionary — English.",
+    "front-desk": {
+        "landing-page": {
+            "meta": {
+                "title": "Marifatun — Ideate, Write, Ship."
+            },
+            "cta_back_dashboard": "Back to Dashboard",
+            "navbar": {
+                "cta_signup": "Start Free",
+                "cta_login": "Log In"
+            },
+            "hero": {
+                "badge": "Platform #1 in Indonesia",
+                "title": "Ideate, Write, Ship.",
+                "subtitle": "Capture any idea inside Marifatun and turn it into posts for LinkedIn, Threads, X, Facebook, all the way to your Email Marketing.",
+                "cta": "Get Started",
+                "social_proof": "Join <strong>10,000+</strong> writers on Marifatun"
+            },
+            "steps": {
+                "title": "3 Steps with Marifatun",
+                "subtitle": "No messy setup required.",
+                "step_1_title": "Idea",
+                "step_1_desc": "Don't let your ideas slip away",
+                "step_2_title": "Write",
+                "step_2_desc": "Write your idea, let AI craft it",
+                "step_3_title": "Ship",
+                "step_3_desc": "Ship it to your socials so it spreads"
+            },
+            "pricing": {
+                "title": "Free to start, upgrade whenever",
+                "subtitle": "Try it for free first. Once it clicks, upgrade to a paid plan at a fair price.",
+                "explore": {
+                    "period": "Forever",
+                    "feat_1": "1 Idea",
+                    "feat_2": "1 Write",
+                    "feat_3": "1 Ship",
+                    "feat_4": "Cross-platform",
+                    "cta": "Get Started"
+                },
+                "maniac": {
+                    "period": "/ 1 Idea",
+                    "feat_1": "1 Idea",
+                    "feat_2": "1 Write",
+                    "feat_3": "1 Ship",
+                    "cta": "Get Started"
+                }
+            },
+            "footer": {
+                "col_company": "Company",
+                "link_support": "Support",
+                "link_feedback": "Feedback",
+                "link_twitter": "Twitter",
+                "col_legal": "Legal",
+                "link_privacy": "Privacy Policy",
+                "link_terms": "Terms of Service",
+                "col_product": "Product",
+                "link_changelog": "Changelog",
+                "link_roadmap": "Roadmap",
+                "link_blog": "Blog",
+                "built": "Built with ♥ by www.rzkjanuarr.com",
+                "copyright": "Copyright 2026 Marifatun"
+            }
+        },
+        "auth-login": {
+            "meta":     { "title": "Log In — Marifatun" },
+            "form":     {
+                "title": "Log In",
+                "subtitle": "Log in and start exploring.",
+                "email_placeholder": "e.g. johndoe@gmail.com",
+                "password_placeholder": "xxxxxxxxxxx",
+                "eye_show_label": "Show password",
+                "forgot_link": "Forgot password?",
+                "submit": "Log In"
+            },
+            "switch":   { "prose": "Don't have an account?", "link": "Sign Up" },
+            "toast":    {
+                "welcome": "Welcome back to Marifatun!",
+                "email_required": "Email is required.",
+                "password_min": "Password must be at least 6 characters.",
+                "success": "Signed in successfully!",
+                "after_register": "Account created. Please sign in.",
+                "after_reset": "Password updated. Please sign in."
+            }
+        },
+        "auth-register": {
+            "meta":     { "title": "Sign Up — Marifatun" },
+            "form":     {
+                "title": "Sign Up",
+                "subtitle": "Join us today.",
+                "name_placeholder": "e.g. John Doe 777",
+                "email_placeholder": "e.g. johndoe@gmail.com",
+                "password_placeholder": "xxxxxxxxxxx",
+                "password_confirm_placeholder": "Confirm password",
+                "eye_show_label": "Show password",
+                "submit": "Sign Up"
+            },
+            "switch":   { "prose": "Already have an account?", "link": "Log In" },
+            "toast":    {
+                "name_required":  "Name is required.",
+                "email_required": "Email is required.",
+                "password_min":   "Password must be at least 6 characters.",
+                "password_mismatch": "Password and confirmation do not match.",
+                "success":        "Signed up successfully!"
+            }
+        },
+        "auth-forgot-password": {
+            "meta":     { "title": "Forgot Password — Marifatun" },
+            "form":     {
+                "title": "Forgot Password",
+                "subtitle": "Enter your email and a new password.",
+                "email_placeholder": "e.g. johndoe@gmail.com",
+                "new_password_placeholder": "New password",
+                "eye_show_label": "Show password",
+                "submit": "Submit"
+            },
+            "switch":   { "prose": "Remember your password?", "link": "Log In" },
+            "toast":    {
+                "email_required": "Email is required.",
+                "password_min":   "Password must be at least 6 characters.",
+                "success":        "Password updated successfully!"
+            }
+        }
+    },
+    "back-desk": {
+        "sidebar-panel": {
+            "logout": "Log out",
+            "nav": {
+                "dashboard": "Dashboard",
+                "user": "Users",
+                "content": "Content"
+            },
+            "group": {
+                "management": "Management"
+            }
+        },
+        "header-panel": {
+            "burger_label": "Toggle sidebar",
+            "lang_trigger_label": "Choose language"
+        },
+        "modal-filter": {
+            "title_default": "Filter & Search",
+            "close_label": "Close",
+            "group_search": "Search",
+            "group_status": "Status",
+            "group_range": "Date Range",
+            "group_sort": "Sort by",
+            "date_from_label": "From date",
+            "date_to_label": "To date",
+            "chip_all": "All",
+            "chip_active": "Active",
+            "chip_inactive": "Inactive",
+            "sort_newest": "Newest",
+            "sort_oldest": "Oldest",
+            "sort_az": "Name A–Z",
+            "sort_za": "Name Z–A",
+            "btn_reset": "Reset",
+            "btn_export": "Export",
+            "btn_apply": "Apply"
+        },
+        "modal-create": {
+            "close_label": "Close",
+            "field_name": "Full Name",
+            "field_email": "Email",
+            "field_plan": "Plan",
+            "field_role": "Role",
+            "field_status": "Status",
+            "field_active": "Active status",
+            "field_password": "Password",
+            "placeholder_name": "e.g. Ari Pratama",
+            "placeholder_email": "name@mail.com",
+            "placeholder_password": "At least 6 characters",
+            "role_admin": "ADMIN",
+            "role_marifatun_user": "MARIFATUN_USER",
+            "status_active": "Active",
+            "status_suspended": "Suspended",
+            "status_banned": "Banned",
+            "status_inactive": "Inactive",
+            "btn_cancel": "Cancel"
+        },
+        "modal-edit": {
+            "close_label": "Close",
+            "field_name": "Full Name",
+            "field_email": "Email",
+            "field_plan": "Plan",
+            "field_role": "Role",
+            "field_status": "Status",
+            "field_active": "Active status",
+            "field_phone": "Phone Number",
+            "field_password_new": "New password",
+            "placeholder_password_optional": "Leave blank to keep current",
+            "role_admin": "ADMIN",
+            "role_marifatun_user": "MARIFATUN_USER",
+            "status_active": "Active",
+            "status_suspended": "Suspended",
+            "status_banned": "Banned",
+            "status_inactive": "Inactive",
+            "btn_cancel": "Cancel"
+        },
+        "modal-view": {
+            "close_label": "Close",
+            "loading": "Loading details…",
+            "detail_roles": "Roles",
+            "detail_modified": "Last modified",
+            "detail_content": "Content Created",
+            "detail_joined": "Joined",
+            "detail_last_login": "Last Login",
+            "detail_phone": "Phone Number",
+            "btn_close": "Close",
+            "btn_edit": "Edit"
+        },
+        "modal-delete": {
+            "subtitle_default": "This action cannot be undone.",
+            "close_label": "Close",
+            "btn_cancel": "Cancel"
+        },
+        "statistic-card-panel": {},
+        "statistic-chart-panel": {},
+        "feature-dashboard": {
+            "meta":    { "title": "Dashboard — Marifatun" },
+            "header":  {
+                "title": "Dashboard",
+                "subtitle": "Overview of Marifatun platform activity",
+                "manage_users": "Manage Users",
+                "manage_content": "Manage content"
+            },
+            "banner":  { "greeting": "Hello,", "subtitle": "Welcome to Marifatun Dashboard" },
+            "loading": "Loading dashboard summary…",
+            "card_total_users": "Total Users",
+            "card_total_contents": "Total Content",
+            "card_active_content": "Active Content",
+            "card_active_monthly": "Active Users This Month",
+            "meta_total_users": "All registered users",
+            "meta_total_contents": "All content on the platform",
+            "meta_vs_last_week": "vs last week",
+            "meta_daily_quota": "68% of daily quota",
+            "meta_this_week": "this week",
+            "meta_of_total_users": "of 1,248 users",
+            "badge_new_count": "+24 new",
+            "badge_active_pct": "78% active",
+            "chart_content_by_type_title": "Content by type",
+            "chart_content_by_type_subtitle": "Platform-wide content distribution",
+            "chart_growth_title": "User Growth",
+            "chart_growth_subtitle": "Last 7 days",
+            "chart_revenue_title": "Monthly Revenue",
+            "chart_revenue_subtitle": "Jan – Jun 2026 (in millions)",
+            "chart_plan_title": "Plan Distribution",
+            "chart_plan_subtitle": "Breakdown by plan",
+            "chart_plan_badge": "1,248 users",
+            "chart_category_title": "Top Content Categories",
+            "chart_category_subtitle": "Views per category (0–100 scale)",
+            "chart_category_badge": "Top: Akhlak",
+            "chart_users_by_role_title": "Users by role",
+            "chart_users_by_role_subtitle": "Admin vs Marifatun users",
+            "chart_role_admin": "Admin",
+            "chart_role_marifatun_user": "Marifatun user",
+            "chart_content_status_title": "Active vs inactive content",
+            "chart_content_status_subtitle": "All platform content by status",
+            "chart_content_status_active": "Active",
+            "chart_content_status_inactive": "Inactive",
+            "chart_content_tone_title": "Content by tone",
+            "chart_content_tone_subtitle": "Tone distribution across content",
+            "chart_tone_unknown": "Unknown / empty",
+            "chart_content_timeline_title": "Content created per month",
+            "chart_content_timeline_subtitle": "Last 6 months including this month"
+        },
+        "feature-user": {
+            "meta":    { "title": "User — Marifatun Dashboard" },
+            "header":  {
+                "title": "User",
+                "subtitle": "Manage all registered users",
+                "btn_filter": "Filter",
+                "btn_create": "Add User"
+            },
+            "card_total": "Total Users",
+            "card_premium": "Premium Users",
+            "card_new_month": "New This Month",
+            "card_inactive": "Inactive",
+            "badge_active": "Active",
+            "badge_maniac_plan": "Maniac plan",
+            "badge_mom": "+18% MoM",
+            "badge_30d_inactive": "Not logged in 30+ days",
+            "stat_total_users_title": "Total users",
+            "stat_total_users_badge": "Database",
+            "stat_last_30d_title": "Signups in last 30 days",
+            "stat_last_30d_badge": "30 days",
+            "stat_active_title": "Active users",
+            "stat_active_badge": "Active",
+            "stat_inactive_title": "Inactive users",
+            "stat_inactive_badge": "Inactive",
+            "stat_role_title": "Role {role}",
+            "stat_role_badge": "Role",
+            "stat_email_domain_title": "Email {domain}",
+            "stat_email_domain_badge": "Domain",
+            "chart_signups_title": "Daily Signups",
+            "chart_signups_subtitle": "Last 14 days",
+            "chart_status_title": "User Status",
+            "chart_status_subtitle": "Breakdown by account status",
+            "chart_status_badge": "1,248 total",
+            "chart_plan_title": "Plan Spread",
+            "chart_plan_subtitle": "User composition per plan",
+            "chart_plan_badge": "25% Maniac",
+            "chart_retention_title": "Retention vs Churn",
+            "chart_retention_subtitle": "Last 6 weeks",
+            "chart_retention_badge": "90% avg",
+            "chart_growth_title": "User Growth",
+            "chart_growth_subtitle": "Last 7 days",
+            "chart_revenue_title": "Monthly Revenue",
+            "chart_revenue_subtitle": "Jan – Jun 2026 (in millions)",
+            "chart_dist_plan_title": "Plan Distribution",
+            "chart_dist_plan_subtitle": "Breakdown by plan",
+            "chart_category_title": "Top Content Categories",
+            "chart_category_subtitle": "Views per category (0–100 scale)",
+            "chart_category_badge": "Top: Akhlak",
+            "table": {
+                "col_user":    "User",
+                "col_plan":    "Plan",
+                "col_role":    "Role",
+                "col_status":  "Status",
+                "col_joined":  "Joined",
+                "col_actions": "Actions",
+                "loading":     "Loading users…",
+                "summary":     "Showing 1–5 of 1,248 users",
+                "summary_range": "Showing {from}–{to} of {filtered} results (current filter) · Total in database: {all}",
+                "summary_empty": "No data",
+                "pagination_prev": "Previous page",
+                "pagination_next": "Next page",
+                "pagination_page": "{current} / {last}",
+                "aria_view":   "View details",
+                "aria_edit":   "Edit",
+                "aria_delete": "Delete",
+                "row_status_active":    "Active",
+                "row_status_inactive":  "Inactive",
+                "row_status_suspended": "Suspended",
+                "row_status_banned":    "Banned"
+            },
+            "filter": {
+                "title":              "Filter & Search Users",
+                "search_placeholder": "Search user name or email...",
+                "search_hint":        "Searches full name and email address"
+            },
+            "modals": {
+                "create_title":    "Add User",
+                "create_subtitle": "Fill in the new user's details and click Save to register.",
+                "create_submit":   "Save User",
+                "edit_title":      "Edit User",
+                "edit_subtitle":   "Update user data, then click Save Changes.",
+                "edit_submit":     "Save Changes",
+                "view_title":      "User Details",
+                "view_subtitle":   "Summary of user data and activity.",
+                "delete_title":    "Delete User?",
+                "delete_message":  "This user will be soft-deleted. You can restore them from the admin panel if your backend supports it.",
+                "delete_submit":   "Delete"
+            },
+            "toast": {
+                "filter_applied": "Filters applied.",
+                "user_created":   "New user saved.",
+                "user_updated":   "Changes saved.",
+                "user_deleted":   "User removed.",
+                "invalid_role":   "Invalid role.",
+                "mutation_failed": "Request failed."
+            }
+        },
+        "feature-content": {
+            "meta": { "title": "Content — Marifatun Dashboard" },
+            "header": {
+                "title": "Content",
+                "subtitle": "Create and manage generated content",
+                "btn_filter": "Filter",
+                "btn_create": "New content"
+            },
+            "stat": {
+                "total_contents": "Total content",
+                "total_badge": "Platform",
+                "by_user_title": "By user"
+            },
+            "charts": {
+                "loading": "Loading content statistics…",
+                "section_aria": "Your content statistics",
+                "tone_unknown": "Not set",
+                "by_type_title": "Content by type",
+                "by_type_subtitle": "Distribution of your active content",
+                "by_tone_title": "Content by tone",
+                "by_tone_subtitle": "Count per tone (from brief)",
+                "by_month_title": "Content created per month",
+                "by_month_subtitle": "Last six months (active content)",
+                "by_video_platform_title": "Video scripts by platform",
+                "by_video_platform_subtitle": "Active video-script content by target platform",
+                "platform_unknown": "Not set"
+            },
+            "table": {
+                "col_topic": "Topic",
+                "col_type": "Type",
+                "col_tone": "Tone",
+                "col_keywords": "Keywords",
+                "col_owner": "Owner",
+                "col_status": "Status",
+                "col_created": "Created",
+                "col_actions": "Actions",
+                "status_active": "Active",
+                "status_inactive": "Inactive",
+                "loading": "Loading content…",
+                "summary_range": "Showing {from}–{to} of {filtered} results",
+                "summary_empty": "No data",
+                "pagination_prev": "Previous page",
+                "pagination_next": "Next page",
+                "pagination_page": "{current} / {last}",
+                "aria_view": "View details",
+                "aria_edit": "Edit",
+                "aria_delete": "Deactivate",
+                "aria_deactivate": "Deactivate content",
+                "deactivate_disabled_hint": "Content is already inactive"
+            },
+            "filter": {
+                "title": "Filter content",
+                "search_placeholder": "Search topic or keywords…",
+                "search_hint": "Matches topic and related fields",
+                "search_placeholder_user": "Search topic, keywords, or tone…",
+                "search_hint_user": "Matches topic, keywords, and tone (e.g. formal, casual).",
+                "sort_modified_hint_user": "Sort by last modified date.",
+                "content_type": "Content type",
+                "any_type": "Any type",
+                "user_id": "User ID",
+                "user_id_placeholder": "Owner UUID",
+                "sort_default": "Default (server)",
+                "sort_created": "Created date",
+                "sort_modified": "Modified date",
+                "sort_topic": "Topic",
+                "sort_content_type": "Content type",
+                "sort_user_name": "Owner name",
+                "sort_direction": "Sort direction",
+                "dir_default": "Default",
+                "dir_asc": "Ascending",
+                "dir_desc": "Descending",
+                "per_page": "Per page",
+                "sort_modified_hint": "Sort by last modified date (5 items per page)."
+            },
+            "form": {
+                "content_type": "Content type",
+                "topic": "Topic",
+                "topic_placeholder": "Main topic or brief",
+                "tone": "Tone",
+                "keywords": "Keywords",
+                "keywords_placeholder": "e.g. SaaS, digital product, SMB — short keywords",
+                "target_audience": "Target audience",
+                "target_audience_placeholder": "e.g. founders, CEOs, CTOs, managers, SMBs",
+                "select_placeholder": "Select…",
+                "video_platform": "Platform",
+                "video_platform_tiktok": "TikTok",
+                "video_platform_instagram": "Instagram",
+                "video_platform_linkedin": "LinkedIn",
+                "video_key_message": "Key message",
+                "video_key_message_placeholder": "Core message for the video",
+                "video_cta": "Call to action",
+                "video_cta_placeholder": "e.g. Sign up free, Try now, Contact us"
+            },
+            "enum": {
+                "content_type": {
+                    "linkedin": "LinkedIn",
+                    "x": "X",
+                    "thread": "Threads",
+                    "facebook": "Facebook",
+                    "email_marketing": "Email marketing",
+                    "video_script": "Video script (short-form)"
+                },
+                "tone": {
+                    "formal": "Formal",
+                    "casual": "Casual",
+                    "persuasive": "Persuasive",
+                    "friendly": "Friendly",
+                    "professional": "Professional",
+                    "inspirational": "Inspirational",
+                    "humorous": "Humorous"
+                }
+            },
+            "view": {
+                "topic": "Topic",
+                "content_type": "Type",
+                "tone": "Tone",
+                "keywords": "Keywords",
+                "target_audience": "Target audience",
+                "revision": "Revisions",
+                "revision_value": "{used} used · {left} remaining",
+                "owner": "Owner",
+                "created": "Created",
+                "modified": "Modified",
+                "result": "Generated result",
+                "result_section_aria": "Generated output preview",
+                "result_placeholder": "No generated text yet.",
+                "copy_button": "Copy",
+                "copy_aria": "Copy generated result to clipboard",
+                "copy_toast": "Copied to clipboard.",
+                "copy_failed": "Could not copy.",
+                "copy_empty": "Nothing to copy.",
+                "export_button": "Export",
+                "export_aria": "Download generated result as a text file (.txt)",
+                "export_toast": ".txt file downloaded.",
+                "export_failed": "Could not download file.",
+                "video_platform": "Platform",
+                "video_key_message": "Key message",
+                "video_cta": "Call to action",
+                "video_script_parse_error": "Could not parse video script JSON. Raw output:",
+                "video_script_empty": "No scenes in the result.",
+                "video_scene_title": "Scene {n}",
+                "video_scene_duration": "{s} sec",
+                "video_field_visual": "Visual",
+                "video_field_on_screen": "On-screen text",
+                "video_field_voice": "Voice-over",
+                "video_field_music": "Background music",
+                "video_field_transition": "Transition",
+                "video_preview_title": "Vertical preview (9:16)",
+                "video_preview_note": "This is an in-browser preview from the script text — not an .mp4 file. Use Play to step through scenes by duration.",
+                "video_preview_play": "Play preview",
+                "video_preview_pause": "Pause",
+                "video_preview_reset": "Restart",
+                "video_preview_jump": "Jump to scene",
+                "video_preview_frame_aria": "Vertical video script scene preview",
+                "video_preview_scene_counter": "Scene {current} of {total}",
+                "video_export_build": "Build video (.webm)",
+                "video_export_recording": "Building video…",
+                "video_export_hint": "No install needed: generated in-browser (Chrome/Edge). WebM format, no audio.",
+                "video_export_unsupported": "This browser cannot record WebM (try latest Chrome or Edge).",
+                "video_export_error": "Could not create the video file.",
+                "video_export_done": "Video is ready to play and download.",
+                "video_export_player": "Play video",
+                "video_export_download": "Download .webm"
+            },
+            "generating": {
+                "overlay_aria": "Generating content, please wait"
+            },
+            "modals": {
+                "create_title": "New content",
+                "create_subtitle": "Fill in the brief and submit to generate.",
+                "create_fyi": "Pick a content type first. Use “Fill from template” for sample copy you can edit before generating.",
+                "template_fill_button": "Fill from template",
+                "create_submit": "Create",
+                "edit_title": "Edit content",
+                "edit_subtitle": "Update the brief and save.",
+                "edit_submit": "Save changes",
+                "view_title": "Content details",
+                "view_subtitle": "Generated copy and metadata.",
+                "delete_title": "Deactivate content?",
+                "delete_message": "Status will be set to inactive. Data stays saved and remains visible in the list.",
+                "delete_submit": "Deactivate"
+            },
+            "toast": {
+                "filter_applied": "Filters applied.",
+                "content_created": "Content created.",
+                "content_updated": "Content updated.",
+                "content_deleted": "Content deleted.",
+                "content_deactivated": "Content deactivated.",
+                "invalid_content_type": "Invalid content type.",
+                "invalid_tone": "Invalid tone.",
+                "topic_required": "Topic is required.",
+                "topic_max_words": "Topic must be at most 1000 words.",
+                "video_brief_incomplete": "Platform, key message, and call to action are required for a video script.",
+                "template_fill_select_type": "Select a content type first.",
+                "template_fill_applied": "Sample brief applied. Adjust it, then click Create.",
+                "mutation_failed": "Request failed."
+            }
+        }
+    },
+    "shell": {
+        "error-pages": {
+            "common": {
+                "copyright": "© 2026 Marifatun"
+            },
+            "403": {
+                "meta_title":    "403 — Access Denied · Marifatun",
+                "meta_desc":     "You don't have permission to access this page.",
+                "heading":       "Access denied",
+                "description":   "You don't have permission to access this page. Make sure you're signed in with the right account, or contact an admin if you believe this is a mistake."
+            },
+            "404": {
+                "meta_title":    "404 — Page Not Found · Marifatun",
+                "meta_desc":     "The page you're looking for could not be found on Marifatun.",
+                "heading":       "Page not found",
+                "description":   "The page you're looking for may have been moved, deleted, or never existed. Double-check the URL or head back to the previous page."
+            },
+            "500": {
+                "meta_title":    "500 — Server Error · Marifatun",
+                "meta_desc":     "Something went wrong on our end. Please try again in a moment.",
+                "heading":       "Something went wrong on our servers",
+                "description":   "Our team is working on it. Please try again in a moment. If this keeps happening, reach out to our support team."
+            }
+        },
+        "toast": {
+            "close_label": "Close notification"
+        }
+    }
+}

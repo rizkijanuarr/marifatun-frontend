@@ -1,0 +1,138 @@
+/* ============================================================
+   Marifatun — Color tokens (single source of truth)
+   ------------------------------------------------------------
+   This file holds *all* color-related design tokens.
+   Load it BEFORE style.css on every page so the cascade resolves
+   `var(--color-…)` / `var(--dash-…)` references correctly.
+
+   Usage:
+     <link rel="stylesheet" href="css/color.css" />
+     <link rel="stylesheet" href="css/style.css" />
+
+   Token groups
+   ------------
+   1. Brand           — primary, soft, dark + alpha steps
+   2. Surface         — page background, card surface
+   3. Text            — text + muted + on-primary
+   4. Border          — neutral borders + strong border
+   5. Status          — success / warning / danger (badges, etc.)
+   6. Toast           — accent used by the floating toast component
+   7. Maniac plan     — gradient stops for the premium pricing card
+   8. Shadow / blur   — neutral elevation + dim/blur backdrops
+   9. Dashboard alias — dash-* tokens kept for the back-desk shell
+   ============================================================ */
+
+:root {
+    /* 1 — Brand primary */
+    --color-primary:        #dd3404;
+    --color-primary-soft:   #ff7249;
+    --color-primary-dark:   #b32a03;
+    --color-primary-rgb:    221, 52, 4;
+
+    /* Brand alpha steps — keep the most-used opacities pre-baked
+       so authors don't have to remember the rgb tuple. */
+    --color-primary-04:  rgba(221,  52,   4, 0.04);
+    --color-primary-05:  rgba(221,  52,   4, 0.05);
+    --color-primary-06:  rgba(221,  52,   4, 0.06);
+    --color-primary-08:  rgba(221,  52,   4, 0.08);
+    --color-primary-12:  rgba(221,  52,   4, 0.12);
+    --color-primary-14:  rgba(221,  52,   4, 0.14);
+    --color-primary-15:  rgba(221,  52,   4, 0.15);
+    --color-primary-18:  rgba(221,  52,   4, 0.18);
+    --color-primary-20:  rgba(221,  52,   4, 0.20);
+    --color-primary-22:  rgba(221,  52,   4, 0.22);
+    --color-primary-25:  rgba(221,  52,   4, 0.25);
+    --color-primary-28:  rgba(221,  52,   4, 0.28);
+    --color-primary-35:  rgba(221,  52,   4, 0.35);
+    --color-primary-45:  rgba(221,  52,   4, 0.45);
+    --color-primary-55:  rgba(221,  52,   4, 0.55);
+    --color-primary-60:  rgba(221,  52,   4, 0.60);
+    --color-primary-75:  rgba(221,  52,   4, 0.75);
+
+    /* 2 — Surface */
+    --color-bg:               #f9f9f9;
+    --color-surface:          #ffffff;
+    --color-surface-alt:      #f5f6f8;     /* table head, subtle bands */
+    --color-surface-photo:    #d9d9d9;     /* auth photo column placeholder */
+
+    /* 3 — Text */
+    --color-text:             #000000;
+    --color-text-muted:       rgba(0, 0, 0, 0.6);
+    --color-on-primary:       #ffffff;     /* foreground on top of brand */
+    --color-text-on-dark:     #1a1a1a;     /* near-black for white surfaces */
+
+    /* 4 — Border */
+    --color-border:           #b6b6b6;
+    --color-border-soft:      rgba(0, 0, 0, 0.06);
+    --color-border-strong:    rgba(0, 0, 0, 0.10);
+
+    /* 5 — Status (badges, error pages, danger buttons) */
+    --color-success:          #16a34a;
+    --color-success-bg:       rgba(22, 163, 74, 0.08);
+    --color-success-border:   rgba(22, 163, 74, 0.25);
+
+    --color-warning:          #a16207;
+    --color-warning-accent:   #eab308;
+    --color-warning-bg:       rgba(234, 179, 8, 0.10);
+    --color-warning-bg-soft:  rgba(234, 179, 8, 0.08);
+    --color-warning-border:   rgba(234, 179, 8, 0.30);
+
+    --color-danger:           #dc2626;
+    --color-danger-dark:      #b91c1c;
+    --color-danger-bg:        rgba(220, 38, 38, 0.08);
+    --color-danger-bg-soft:   rgba(220, 38, 38, 0.06);
+    --color-danger-border:    rgba(220, 38, 38, 0.25);
+
+    --color-muted-bg:         rgba(0, 0, 0, 0.05);
+    --color-muted-border:     rgba(0, 0, 0, 0.08);
+
+    /* 6 — Toast (notification) accent */
+    --color-toast-accent:     #ff7249;
+    --color-toast-shadow-1:   rgba(20,  20,  20, 0.25);
+    --color-toast-shadow-2:   rgba(255, 114, 73, 0.18);
+    --color-toast-shadow-3:   rgba(0,   0,   0, 0.05);
+    --color-toast-icon-glow:  rgba(255, 114, 73, 0.55);
+
+    /* 7 — Maniac plan gradient stops */
+    --color-maniac-1:         #ff7a3d;
+    --color-maniac-2:         #ff8a4a;
+    --color-maniac-glow-a:    rgba(255, 140,  80, 0.55);
+    --color-maniac-glow-b:    rgba(221,  52,   4, 0.35);
+    --color-maniac-glow-c:    rgba(255, 180, 120, 0.50);
+
+    /* 8 — Shadows / overlays / scrim */
+    --color-shadow-1:         rgba(0, 0, 0, 0.03);
+    --color-shadow-2:         rgba(0, 0, 0, 0.04);
+    --color-shadow-3:         rgba(0, 0, 0, 0.06);
+    --color-shadow-4:         rgba(0, 0, 0, 0.08);
+    --color-shadow-5:         rgba(0, 0, 0, 0.18);
+    --color-shadow-strong:    rgba(15, 15, 15, 0.08);
+    --color-shadow-table:     rgba(15, 23, 42, 0.18);
+
+    --color-scrim-soft:       rgba(0, 0, 0, 0.18);
+    --color-scrim-medium:     rgba(0, 0, 0, 0.35);
+    --color-scrim-modal:      rgba(18, 18, 18, 0.45);
+    --color-scrim-drawer:     rgba(18, 18, 18, 0.42);
+
+    /* Apple-style "frosted" glass tints used on the sticky topbars */
+    --color-glass-light:      rgba(255, 255, 255, 0.42);
+    --color-glass-light-mid:  rgba(255, 255, 255, 0.62);
+    --color-glass-fallback:   rgba(255, 255, 255, 0.92);
+    --color-glass-edge:       rgba(255, 255, 255, 0.55);
+    --color-glass-inset:      rgba(255, 255, 255, 0.55);
+    --color-glass-banner:     rgba(255, 255, 255, 0.12);
+    --color-glass-banner-hi:  rgba(255, 255, 255, 0.92);
+    --color-glass-shine:      rgba(255, 255, 255, 0.45);
+    --color-glass-shine-soft: rgba(255, 255, 255, 0.22);
+
+    /* Custom scrollbar tints */
+    --color-scrollbar-track:  rgba(221, 52, 4, 0.06);
+    --color-scrollbar-thumb-end: #b32a03;
+
+    /* 9 — Dashboard aliases (kept for back-desk shell readability) */
+    --dash-border:            1px solid var(--color-border-soft);
+    --dash-border-strong:     1px solid var(--color-border-strong);
+    --dash-soft-bg:           var(--color-primary-04);
+    --dash-hover-bg:          var(--color-primary-08);
+    --dash-soft-shadow:       0 4px 12px -6px var(--color-primary-08);
+}
