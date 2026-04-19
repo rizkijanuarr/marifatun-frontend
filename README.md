@@ -1,5 +1,7 @@
 # Marifatun Frontend
 
+![Marifatun — platform konten & scripting video](public/cover.png)
+
 ## Deskripsi
 
 Marifatun merupakan kosakata yang diambil dari Arab yang mengartikan Pengetahuan, dengan tujuan untuk melakukan generating copywriting konten yang dapat di share di LinkedIn, X, Thread, Facebook, hingga ke Email Marketing. Dan juga melakukan scripting scenes untuk membuat Video.
@@ -11,22 +13,8 @@ Gunakan salah satu contoh berikut saat ingin menampilkan gambar di dokumentasi a
 **Markdown:**
 
 ```markdown
-![Deskripsi gambar](./path/ke/gambar.png)
+![Marifatun — platform konten & scripting video](public/cover.png)
 ```
-
-**HTML:**
-
-```html
-<img src="./path/ke/gambar.png" alt="Deskripsi gambar" width="640" height="auto" />
-```
-
-**React (JSX):**
-
-```tsx
-<img src="/assets/contoh.png" alt="Deskripsi gambar" />
-```
-
-Sesuaikan `src` dengan path aset di folder `public/` (misalnya `/assets/nama-file.svg`) atau import dari `src/`.
 
 ## Instalasi
 
