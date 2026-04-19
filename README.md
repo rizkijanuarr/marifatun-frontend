@@ -8,12 +8,6 @@
 
 Marifatun merupakan kosakata yang diambil dari Arab yang mengartikan Pengetahuan, dengan tujuan untuk melakukan generating copywriting konten yang dapat di share di LinkedIn, X, Thread, Facebook, hingga ke Email Marketing. Dan juga melakukan scripting scenes untuk membuat Video.
 
-**Markdown:**
-
-```markdown
-![Marifatun — platform konten & scripting video](./public/cover.png)
-```
-
 ## Instalasi
 
 Pastikan di komputer lokal sudah terpasang:
